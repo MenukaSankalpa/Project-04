@@ -11,4 +11,25 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-direction: column;
+}
+.stopwatch{
+    background-color: rgba(0,0,0,0.9);
+    padding: 20px 24px;
+    border-radius: 10px;
+}
+.timerDisplay{
+    font-size: 50px;
+    font-weight: bold;
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    background-color: rgb(62, 219, 247);
+    padding: 12px 24px;
 }
