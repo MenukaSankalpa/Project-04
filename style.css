@@ -30,6 +30,9 @@ body{
     background: none;
     border: none;
     color: #fff;
-    background-color: rgb(62, 219, 247);
+    background-color: var(--clr);
     padding: 12px 24px;
+    margin-inline: 12px;
+    border-radius: 8px;
+    cursor: pointer;
 }
